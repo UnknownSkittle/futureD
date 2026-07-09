@@ -1,0 +1,11 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package org.bouncycastle.crypto.i;
+
+import org.bouncycastle.b.e;
+
+public final class i
+implements e {
+}
+

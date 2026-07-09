@@ -1,0 +1,32 @@
+/*
+ * Decompiled with CFR 0.153-SNAPSHOT (d6f6758-dirty).
+ */
+package org.bouncycastle.asn1.h;
+
+import java.math.BigInteger;
+import org.bouncycastle.asn1.h.a;
+import org.bouncycastle.asn1.k.aa;
+import org.bouncycastle.asn1.k.ab;
+import org.bouncycastle.asn1.k.ac;
+import org.bouncycastle.e.a.f;
+import org.bouncycastle.math.ec.d;
+import org.bouncycastle.math.ec.i;
+
+final class h
+extends ab {
+    h() {
+    }
+
+    protected final aa a() {
+        Object object = a.b("01FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF");
+        Object object2 = a.b("01FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFC");
+        BigInteger bigInteger = a.b("0051953EB9618E1C9A1F929A21A0B68540EEA2DA725B99B315F3B8B489918EF109E156193951EC7E937B1652C0BD3BB1BF073573DF883D2C34F1EF451FD46B503F00");
+        byte[] byArray = f.a("D09E8800291CB85396CC6717393284AAA0DA64BA");
+        BigInteger bigInteger2 = a.b("01FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFA51868783BF2F966B7FCC0148F709A5D03BB5C9B8899C47AEBB6FB71E91386409");
+        BigInteger bigInteger3 = BigInteger.valueOf(1L);
+        object = a.a(new i((BigInteger)object, (BigInteger)object2, bigInteger, bigInteger2, bigInteger3));
+        object2 = new ac((d)object, f.a("0400C6858E06B70404E9CD9E3ECB662395B4429C648139053FB521F828AF606B4D3DBAA14B5E77EFE75928FE1DC127A2FFA8DE3348B3C1856A429BF97E7E31C2E5BD66011839296A789A3BC0045C8A5FB42C7D1BD998F54449579B446817AFBD17273E662C97EE72995EF42640C550B9013FAD0761353C7086A272C24088BE94769FD16650"));
+        return new aa((d)object, (ac)object2, bigInteger2, bigInteger3, byArray);
+    }
+}
+
